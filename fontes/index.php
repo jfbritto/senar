@@ -1,1 +1,0 @@
-<?php include('../php/autenticar_sessao.php'); ?>
