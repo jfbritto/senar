@@ -1,1 +1,0 @@
-Sistema para auxílio nos cursos aplicados por intrutores do SENAR.
