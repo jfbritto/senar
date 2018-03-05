@@ -1,0 +1,301 @@
+
+	@font-face{
+		font-family: Play-Bold;
+		font-style: normal;
+		font-size: normal;
+		src:url(../../fontes/Play-Bold.ttf);
+	}	
+
+	body, html{
+		width: 100%;
+		height: 100%;
+		font-family: Play-Bold;
+		/*background-color: #95a5a6;*/
+		/*background: linear-gradient(150deg, #005826, #00A650);*/
+		background-color: #005826;
+		overflow: auto;
+	}	
+
+	footer{
+		height: 50px;
+	}
+
+	.navbar{
+		background-color: #FFFFFF;
+	}
+
+	.img-logo {
+		height: 40px;
+		width: 120px;
+		margin-top: -10px;
+		display: block;
+		background: url('../../img/logo.png') no-repeat;
+		background-size: contain;
+		color: transparent;
+		border-color: transparent;
+	}	
+
+	.navbar-default .navbar-nav>li>a{
+		/*color: #00699B;*/
+		font-size: 18px;
+	}
+
+	
+	.bar{
+		margin-top: 0.5%;		
+		/*box-shadow: 3px 3px 3px;*/
+		/*border: 1px solid white;*/
+		box-shadow: 0 0 20px black;
+		border-radius: 10px;
+		margin-left: 1%;
+		margin-right: 1%;
+		position: relative;
+	}
+
+	.box{
+		transition: 0.3s;	
+		background-color: #00A650;
+		padding: 20px;
+		border: 3px solid #EEEEEE;
+		/*border: 2px;*/
+
+	}
+	.box:hover{
+		transition: 0.3s;
+		border-radius: 100px;
+		background-color: #06B45A;
+		box-shadow: 0 0 20px;
+		/*border: 0px;*/
+	}
+
+	.box-cadastro{
+		background-color: #FFFFFF;
+		padding: 10px;
+		/*border: 3px solid #00699B;*/
+
+	}
+
+	.img-box{
+		width: 150px;
+	}
+
+	.titulo-box{
+		color: #ffffff;
+		font-size: 18px;
+	}
+
+	.cabecalho-retorno{
+		/*border: 1px solid black;*/
+		font-weight: bold;
+		font-size: 15px;
+		background-color: #005826;
+		color: #FFFFFF;
+
+	}
+
+	.retorno-treinamento{
+		transition: 0.2s;
+		height: 50px;
+		vertical-align: middle;
+		display: table-cell;
+		/*display: table-cell;*/
+
+		/*border-radius: 10px;*/
+		/*box-shadow: 0 0 5px black;*/
+	}
+	.retorno-treinamento:hover{
+		transition: 0.2s;
+		box-shadow: 0 0 5px black;
+	}
+
+	.cinza{
+		background-color: lightgrey;
+	}
+
+	.verde{
+		background-color: lightgreen;
+	}
+
+	.td-meio{
+		vertical-align: middle;
+	}
+
+	.invisivel{
+		visibility: hidden;
+
+	}
+
+	.visivel{
+		visibility: visible;
+	}
+
+	.apagar{
+		display: none;
+	}
+
+	.loginlogo{
+		width: 100%;
+	}	
+
+	.logo{
+		padding: 15px;
+	}
+
+	.centro{
+		margin-top: 5%;
+	}
+
+	.img-logo-login{
+		width: 50%;
+	}
+
+	.box-login{
+		margin: 10px;
+	    padding-bottom: 20px;
+	    border: 1px solid white;
+	    box-shadow: 0 0 20px black;
+	    background-color: white;
+
+	    border-radius: 5px;
+	}
+
+	.destaque-td:hover{
+		box-shadow: 0px 0px 20px white inset;
+	}
+
+	.jumbotron{
+		padding-right: 40px;
+		padding-left: 40px;
+		padding-bottom: 20px;
+		padding-top: 5px;
+	}
+
+	/* -- sm -- */
+	@media screen and (min-width: 768px) and (max-width: 992px){
+
+
+	}
+
+
+	/* -- xs -- */
+	@media screen and (max-width: 1000px){
+		
+		 .hidden-edit{
+		 	transition: 0.5s;
+		 	display: none;
+		 }
+	}
+
+
+
+	/* -- xs -- */
+	@media screen and (max-width: 767px){
+		
+		.img-box{
+			transition: 0.5s;
+			width: 70px;
+		}		
+
+		.jumbotron p{
+			transition: 0.5s;
+			font-size: 15px;
+		}
+
+		.h2, h2{
+			transition: 0.5s;
+			font-size: 30px;
+		}
+	}
+
+
+
+	/* -- xs -- */
+	@media screen and (max-width: 480px){
+		
+		.img-box{
+			transition: 0.5s;
+			width: 50px;
+		}		
+
+		.jumbotron p{
+			transition: 0.5s;
+			font-size: 13px;
+		}
+
+
+
+		.cs{
+			transition: 0.5s;
+			font-size: 40px;
+		}
+		.tr{
+			transition: 0.5s;
+			font-size: 40px;
+		}
+		.al{
+			transition: 0.5s;
+			font-size: 40px;	
+		}		
+	}
+
+/*galaxy s5*/
+		@media screen and (max-width: 360px){
+		
+		.box{
+			transition: 0.5s;
+			padding: 10px;
+			border-radius: 10px;
+
+		}
+
+		.box:hover{
+			border-radius: 10px;
+			background-color: #00A651;
+		}
+
+		.img-box{
+			transition: 0.5s;
+			width: 50px;
+		}		
+
+		.jumbotron p{
+			transition: 0.5s;
+			font-size: 15px;
+		}
+
+		.h2, h2{
+			transition: 0.5s;
+			font-size: 25px;
+		}
+
+		.apagar-img{
+			transition: 0.5s;
+			display: none;
+		}
+
+		.cabecalho-retorno{
+			transition: 0.5s;
+			font-size: 12px;
+
+		}
+
+		.table-corpo{
+			transition: 0.5s;
+			font-size: 12px;
+		}
+
+		.jumbotron{
+			padding-bottom: 5px;
+		}
+
+
+	}
+
+/*iphone 5s*/
+	@media screen and (max-width: 321px){
+		
+	
+
+
+		
+	}
